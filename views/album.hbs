@@ -1,0 +1,15 @@
+<div class="trackcontainer">
+
+    {{#each results}}
+    <div class="trackline">
+        <p>{{name}}</p>
+        <audio controls>
+        <source src="{{preview_url}}" type="audio/mp3">
+        
+        Your browser does not support the audio tag.
+        </audio>
+        
+    </div>
+    <hr>
+    {{/each}}
+</div>
